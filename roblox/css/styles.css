@@ -1,0 +1,201 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Climate+Crisis&family=Tilt+Neon&display=swap');
+
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Climate Crisis', cursive;
+font-family: 'Tilt Neon', cursive;
+*/
+
+.home {
+	background-image: url("..//images/index_pic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.hnav {
+	width: 100%;
+	background-color: #11181E88;
+	min-height: 50px;
+	text-align: center;
+}
+
+.hnav ul {
+	display: block;
+	padding-top: .5em;
+}
+
+.hnav ul li {
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+	padding: 0 .5%;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #E4F2EA;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.hnav a:hover {
+	background-color: #C80002;
+	color: #11181e;
+}
+
+main {
+	min-height:650px;
+	border: 10px solid;
+	background-color: #00000088;
+	margin: 3% 5% 3% 5%;
+}
+
+.fnav {
+	width: 100%;
+	background-color: #00000088;
+	min-height: 50px;
+	text-align: center;
+	padding: .8em;
+	color: white;
+}
+
+.fnav ul {
+	display: block;
+	padding-top: .5em;
+}
+
+.fnav ul li {
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+	padding: 0 .5%;
+}
+
+.fnav a {
+	text-decoration: none;
+	color: #E4F2EA;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-size: 7em;
+	border: 10px solid black;
+	background-color: #00000088;
+	margin: 1%;
+	color: white;
+	font-family: 'Climate Crisis', cursive;
+}
+
+.hometext {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 3% 0% 3% 0%;
+	font-family: 'Tilt Neon', cursive;
+}
+
+.studio {
+	background-image: url("..//images/roblox-background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.studiotext {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 3% 0% 0% 3%;
+	font-family: 'Tilt Neon', cursive;
+}
+.studioimg {
+	margin: 0% 0% 0% 6%;
+	border: 10px double black;
+}
+
+.currencyimg {
+	margin: 0% 0% 0% 14%;
+	border: 10px double black;
+}
+
+.currencytext {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 3% 0% 0% 3%;
+	font-family: 'Tilt Neon', cursive;
+}
+
+.eventtext {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 3%;
+	font-family: 'Tilt Neon', cursive;
+}
+
+.eventimg {
+	margin: 5% 0% 0% 17%;
+	border: 10px double black;
+}
+
+
+form {
+  border: 4px solid #f1f1f1;
+}
+
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.newsletter {
+	text-align: center;
+	font-size: 5em;
+}
+.newsletterimage {
+	margin: 0% 0% 0% 35%;
+}
+.newsletterbod {
+	background-image: url("..//images/wp1815434.webp");
+	image-resolution: from-image;
+	background-position: top;
+}
